@@ -79,7 +79,7 @@ void loop() {
 
     // Handle ongoing recording
     if (isRecording) {
-        audioFile.write((uint8_t*)buffer, bytesRead); [cite: 12]
+        audioFile.write((uint8_t*)buffer, bytesRead);
         currentFileBytes += bytesRead;
 
         // Condition 1: File size limit reached
